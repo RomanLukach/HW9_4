@@ -1,0 +1,23 @@
+{
+  "name": "hw9_4",
+  "version": "1.0.0",
+  "description": "Home Work 9.4",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanLukach/HW9_4.git"
+  },
+  "author": "Roman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanLukach/HW9_4/issues"
+  },
+  "homepage": "https://github.com/RomanLukach/HW9_4#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
