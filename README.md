@@ -16,7 +16,7 @@ Provided scripts are written on [JavaScript](https://www.ecma-international.org/
 - hw9_3.test.js - set of tests to verify hw9_3.js
 
 Script hw9_3.js calculate bonus as following:
-1. Bonus is equal to 50 if sum of "a" and "b" greater 50
+1. Bonus is equal to 50 if sum of "a" and "b" equal or greater than 50
 2. Bonus is equal to sum of "a" and "b" in all other cases
 
 Script hw9_3.js does not check data correctness:
