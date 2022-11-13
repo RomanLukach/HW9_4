@@ -30,17 +30,23 @@ The following programs and SW packages should be installed to prior of script te
 1. Visual Studio Code
 2. NodeJS (version 16.18.0 or higher)
 3. npm (version 8.19.2 or higher)
+4. jest
+5. babel-plugin-istanbul 
 PS: npm will be installaed with Node.js installation
 
 # Installation procedure
 1. Copy this package from the git: Code -> Download ZIP
 2. Unzip loaded file (HW9_4-main.zip) to appropriate location on you computer. Folder HW9_4-main will be created accordingly.
 3. Open this folder in Visual Studio Code
-4. Open terminal window in Visual Studio Code and execute following command:
+4. Open terminal window in Visual Studio Code and execute following commands:
 
 ```bash
 npm install --save-dev jest
 ```
+```bash
+npm install --save-dev babel-plugin-istanbul
+```
+
 # Test script execution
 Execute following command in Visual Studio Code terminal window:
 
@@ -73,4 +79,19 @@ More info and documentation about all used tolls and programm packages could be 
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 - [Jest](https://jestjs.io)
+- [babel-plugin-istanbul](https://www.npmjs.com/package/babel-plugin-istanbul)
 - [JavaScript Standard (ECMAScript 2022) programming language](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+
+
+
+shall be installed babel-plugin-istanbul shall be instaleld to be able to see tests coverage statistics.
+run test as following:
+npx jest --coverage
+
+The folder Coveraga will be created in the project Explorer view in Visual Studio code.
+Find the "index.html" file.
+Tap left button and select " Open with Live Server ".
+
+In the open web browser view you will see genera lstatistics by the test.
+Tested file name is a link and you can get more info about test covereage by the source code lines (how many time there were executed during a tests).
+The tested script (hw9_3.js) does not have any conditions and we test it for different test data only. Therefore, some line repeated few times.
